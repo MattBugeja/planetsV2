@@ -1,0 +1,17 @@
+.borderPaleWhite {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  @media(max-width: 764px){
+
+    .borderPaleWhiteSM {
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+  }
+
+  @media(min-width: 764px){
+
+    .borderPaleWhiteMD {
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+  }

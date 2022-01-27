@@ -1,0 +1,20 @@
+.flex{
+    display: flex;
+   justify-content: center;
+    }
+
+.padding{
+    padding: 25px 0;
+}
+
+.button{
+border: none;
+background-color: transparent;
+    
+}
+
+@media(min-width: 764px){
+    .flex{
+     justify-content: flex-start;
+            }
+}

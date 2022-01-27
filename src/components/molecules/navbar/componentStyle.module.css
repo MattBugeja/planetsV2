@@ -1,0 +1,35 @@
+.componentFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.padding {
+  padding: 16px 24px;
+}
+
+@media (min-width: 764px) {
+  .componentFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+  }
+}
+
+
+@media (min-width: 1439px) {
+  .componentFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+
+}

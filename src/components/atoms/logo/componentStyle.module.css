@@ -1,0 +1,11 @@
+.gridPosition{
+    grid-column: 1 / span 6;
+    grid-row: 1;
+}
+
+.flex{
+display: flex;
+align-items: flex-start;
+
+}
+

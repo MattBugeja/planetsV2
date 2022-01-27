@@ -1,0 +1,33 @@
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  row-gap: 15px;
+}
+
+.padding {
+  padding: 15px;
+}
+
+@media (min-width: 764px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .width {
+    width: 285px;
+  }
+}
+@media (min-width: 1439px) {
+  .width {
+    width: 350px;
+  }
+}
+
+.bgColor {
+  background-color: transparent;
+}
+.bgColor :hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}

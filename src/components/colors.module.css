@@ -1,0 +1,71 @@
+:root {
+  --mercuryColor: #419ebb;
+  --venusColor: #eda249;
+  --earthColor: #6d2ed5;
+  --marsColor: #d14c32;
+  --jupiterColor: #d83a34;
+  --saturnColor: #cd5120;
+  --uranusColor: #1ec1a2;
+  --neptuneColor: #2d68f0;
+}
+
+.colorWhiteHalf {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.colorWhite {
+  color: white;
+}
+
+.colorBlack {
+  color: black;
+}
+
+.bgNavy {
+  background-color: hsl(240, 67%, 8%);
+}
+
+.bgWhite {
+  background-color: white;
+}
+
+.mercuryBG {
+  background-color: var(--mercuryColor);
+}
+.venusrBG {
+  background-color: var(--venusColor);
+}
+.earthrBG {
+  background-color: var(--earthColor);
+}
+.marsrBG {
+  background-color: var(--marsColor);
+}
+.jupiterrBG {
+  background-color: var(--jupiterColor);
+}
+.saturnrBG {
+  background-color: var(--saturnColor);
+}
+.uranusrBG {
+  background-color: var(--uranusColor);
+}
+.neptuneBG {
+  background-color: var(--neptuneColor);
+}
+
+a:link {
+  color: rgba(255, 255, 255, 0.5);
+}
+a:visited {
+  color: rgba(255, 255, 255, 0.5);
+}
+a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+a:focus {
+  color: rgba(255, 255, 255, 0.5);
+}
+a:active {
+  color: rgba(255, 255, 255, 0.5);
+}

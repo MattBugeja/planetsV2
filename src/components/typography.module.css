@@ -1,0 +1,111 @@
+.fontAntonio {
+  font-family: "Antonio", sans-serif;
+}
+
+.fontSpartan {
+  font-family: "Spartan", sans-serif;
+}
+
+.textUpper {
+  text-transform: uppercase;
+}
+
+.description {
+  line-height: 22px;
+  justify-content: center;
+}
+
+.attributeName {
+  letter-spacing: 0.73px;
+  font-weight: bold;
+}
+
+.attributeQuantity {
+  letter-spacing: -0.75px;
+}
+
+.logo {
+  letter-spacing: -1.05px;
+}
+
+.fontSizeXs {
+  font-size: 9px;
+}
+
+.fontSizeS {
+  font-size: 12px;
+}
+
+.fontSizeM {
+  font-size: 20px;
+}
+
+.fontSizeL {
+  font-size: 28px;
+}
+
+.fontSizeXl {
+  font-size: 40px;
+}
+
+.fontWeight700 {
+  font-weight: 700;
+}
+
+.fontWeight400 {
+  font-weight: 400;
+}
+
+.innerMenuButton {
+  letter-spacing: 1.93px;
+}
+
+.sourceLink {
+  line-height: 25px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.underline:link {
+  color: blue;
+}
+.underline :visited {
+  color: purple;
+}
+.underline:hover {
+  color: orange;
+}
+.underline:focus {
+  color: green;
+}
+.underline:active {
+  color: red;
+}
+
+@media (min-width: 765px) {
+  .alignLeftMD {
+    text-align: left;
+  }
+
+  .fontSizeXs {
+    font-size: 9px;
+  }
+
+  .fontSizeS {
+    font-size: 12px;
+  }
+
+  .fontSizeM {
+    font-size: 20px;
+  }
+
+  .fontSizeL {
+    font-size: 28px;
+  }
+
+  .fontSizeXl {
+    font-size: 40px;
+  }
+}

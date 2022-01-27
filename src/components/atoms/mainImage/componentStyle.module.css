@@ -1,0 +1,51 @@
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.gridPosition {
+  grid-column: 1 / span 12;
+  grid-row: 3;
+}
+
+.containerHeight {
+  height: 173px;
+}
+
+.containerWidth {
+  width: 173px;
+}
+
+.imageWidth {
+  width: 100%;
+}
+
+.componentGridPosition {
+  grid-column: 2;
+  grid-row: 2;
+  justify-self: center;
+}
+
+@media(min-width:768px){
+  .containerHeight {
+    height: 253px;
+  }
+  
+  .containerWidth {
+    width: 253px;
+  }
+
+
+}
+
+@media(min-width:1439px){
+  .containerHeight {
+    height: 582px;
+  }
+  
+  .containerWidth {
+    width: 582px;
+  }
+
+
+}

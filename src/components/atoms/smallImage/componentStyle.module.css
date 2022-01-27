@@ -1,0 +1,49 @@
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.gridPosition {
+  grid-column: 1 / span 12;
+  grid-row: 3;
+}
+
+.containerHeight {
+  height: 45px;
+}
+
+.containerWidth {
+  width: 45px;
+}
+
+.imageWidth {
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.componentGridPosition {
+  grid-column: 2;
+  grid-row: 2/span 3;
+  justify-self: center;
+  align-self: flex-end
+}
+
+@media (min-width: 764px){
+
+  .containerHeight {
+    height: 199px;
+  }
+  
+  .containerWidth {
+    width: 163px;
+  }
+
+
+}
+
+

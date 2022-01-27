@@ -1,0 +1,36 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.padding {
+  padding: 14.5px 11px;
+}
+
+.componentPadding {
+  padding: 0 24px;
+}
+
+.margin {
+  margin: 12px 0;
+}
+
+@media (min-width: 764px) {
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 15px;
+    flex-grow: 1;
+  }
+
+  .containerFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 15px;
+   }
+
+}
