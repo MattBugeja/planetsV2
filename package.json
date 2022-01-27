@@ -2,7 +2,7 @@
   "name": "planets-v2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/MattBugeja/planetsV2",
+  "homepage": "https://github.com/mattbugeja/planetsV2",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.16.1",
