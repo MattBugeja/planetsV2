@@ -6,7 +6,7 @@ function SmallImageContainer() {
   const planetIndex = useSelector((state)=> state.planetInfo.planetIndex)
 
 
-const src = `${window.location.origin}/${data[planetIndex].images.geology}`
+const src = `${data[planetIndex].images.geology}`
 const planetName = `${data[planetIndex].name}`
 
   return (

@@ -23,9 +23,9 @@
       "background": ".mercuryBG"
     },
     "images": {
-      "overview": "./assets/planet-mercury.svg",
-      "structure": "./assets/planet-mercury-internal.svg",
-      "geology": "./assets/geology-mercury.png"
+      "overview": "/assets/planet-mercury.svg",
+      "structure": "/assets/planet-mercury-internal.svg",
+      "geology": "/assets/geology-mercury.png"
     }
   },
   {
@@ -52,9 +52,9 @@
       "background": ".venusBG"
     },
     "images": {
-      "overview": "./assets/planet-venus.svg",
-      "structure": "./assets/planet-venus-internal.svg",
-      "geology": "./assets/geology-venus.png"
+      "overview": "/assets/planet-venus.svg",
+      "structure": "/assets/planet-venus-internal.svg",
+      "geology": "/assets/geology-venus.png"
     }
 
   },
@@ -82,9 +82,9 @@
       "background": ".earthBG"
     },
     "images": {
-      "overview": "./assets/planet-earth.svg",
-      "structure": "./assets/planet-earth-internal.svg",
-      "geology": "./assets/geology-earth.png"
+      "overview": "/assets/planet-earth.svg",
+      "structure": "/assets/planet-earth-internal.svg",
+      "geology": "/assets/geology-earth.png"
     }
   },
   {
@@ -111,9 +111,9 @@
       "background": ".marsBG"
     },
     "images": {
-      "overview": "./assets/planet-mars.svg",
-      "structure": "./assets/planet-mars-internal.svg",
-      "geology": "./assets/geology-mars.png"
+      "overview": "/assets/planet-mars.svg",
+      "structure": "/assets/planet-mars-internal.svg",
+      "geology": "/assets/geology-mars.png"
     }
   },
   {
@@ -140,9 +140,9 @@
       "background": ".jupiterBG"
     },
     "images": {
-      "overview": "./assets/planet-jupiter.svg",
-      "structure": "./assets/planet-jupiter-internal.svg",
-      "geology": "./assets/geology-jupiter.png"
+      "overview": "/assets/planet-jupiter.svg",
+      "structure": "/assets/planet-jupiter-internal.svg",
+      "geology": "/assets/geology-jupiter.png"
     }
   },
   {
@@ -166,9 +166,9 @@
       { "attributeName": "average temp", "attributeQuantity": "-138°c" }
     ],
     "images": {
-      "overview": "./assets/planet-saturn.svg",
-      "structure": "./assets/planet-saturn-internal.svg",
-      "geology": "./assets/geology-saturn.png"
+      "overview": "/assets/planet-saturn.svg",
+      "structure": "/assets/planet-saturn-internal.svg",
+      "geology": "/assets/geology-saturn.png"
     }
   },
   {
@@ -195,9 +195,9 @@
       "background": ".uranusBG"
     },
     "images": {
-      "overview": "./assets/planet-uranus.svg",
-      "structure": "./assets/planet-uranus-internal.svg",
-      "geology": "./assets/geology-uranus.png"
+      "overview": "/assets/planet-uranus.svg",
+      "structure": "/assets/planet-uranus-internal.svg",
+      "geology": "/assets/geology-uranus.png"
     }
   },
   {
@@ -224,9 +224,9 @@
       "background": ".neptuneBG"
     },
     "images": {
-      "overview": "./assets/planet-neptune.svg",
-      "structure": "./assets/planet-neptune-internal.svg",
-      "geology": "./assets/geology-neptune.png"
+      "overview": "/assets/planet-neptune.svg",
+      "structure": "/assets/planet-neptune-internal.svg",
+      "geology": "/assets/geology-neptune.png"
     }
   }
 ]
