@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/MattBugeja/planetsV2/static/css/main.90c09dfe.css",
-    "main.js": "/MattBugeja/planetsV2/static/js/main.b0f0f9a2.js",
-    "static/js/787.35d161f7.chunk.js": "/MattBugeja/planetsV2/static/js/787.35d161f7.chunk.js",
-    "static/media/background-stars.svg": "/MattBugeja/planetsV2/static/media/background-stars.f6233a6a8d2351c57f2b.svg",
-    "index.html": "/MattBugeja/planetsV2/index.html",
-    "static/media/icon-hamburger.svg": "/MattBugeja/planetsV2/static/media/icon-hamburger.05a40a49142005f6faf230286ab38214.svg",
-    "main.90c09dfe.css.map": "/MattBugeja/planetsV2/static/css/main.90c09dfe.css.map",
-    "main.b0f0f9a2.js.map": "/MattBugeja/planetsV2/static/js/main.b0f0f9a2.js.map",
-    "787.35d161f7.chunk.js.map": "/MattBugeja/planetsV2/static/js/787.35d161f7.chunk.js.map"
+    "main.css": "/planetsV2/static/css/main.433cd7e3.css",
+    "main.js": "/planetsV2/static/js/main.4fbb1883.js",
+    "static/js/787.35d161f7.chunk.js": "/planetsV2/static/js/787.35d161f7.chunk.js",
+    "static/media/background-stars.svg": "/planetsV2/static/media/background-stars.f6233a6a8d2351c57f2b.svg",
+    "index.html": "/planetsV2/index.html",
+    "static/media/icon-hamburger.svg": "/planetsV2/static/media/icon-hamburger.05a40a49142005f6faf230286ab38214.svg",
+    "main.433cd7e3.css.map": "/planetsV2/static/css/main.433cd7e3.css.map",
+    "main.4fbb1883.js.map": "/planetsV2/static/js/main.4fbb1883.js.map",
+    "787.35d161f7.chunk.js.map": "/planetsV2/static/js/787.35d161f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90c09dfe.css",
-    "static/js/main.b0f0f9a2.js"
+    "static/css/main.433cd7e3.css",
+    "static/js/main.4fbb1883.js"
   ]
 }
