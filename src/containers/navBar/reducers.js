@@ -7,9 +7,9 @@ const initialState = {
 export default function MenuStateReducer(state = initialState, action) {
   switch (action.type) {
     case SET_MENU:
-      return {...state, menuIsOpen : true};
-      case RESET_MENU:
-        return {menuIsOpen : false};
+      return { ...state, menuIsOpen: true };
+    case RESET_MENU:
+      return { menuIsOpen: false };
     default:
       return state;
   }

@@ -6,10 +6,11 @@ import classes from "./componentStyle.module.css";
 import MenuModalContainer from "../../containers/menuModalContainer";
 import AttributesContainer from "../../containers/attributesContainer";
 
-
 function Page({ viewType, menuIsOpen }) {
   return (
-    <div className={`${classes.grid} ${classes.height} ${classes.bgColor} ${classes.padding}`}>
+    <div
+      className={`${classes.grid} ${classes.height} ${classes.bgColor} ${classes.padding}`}
+    >
       <div className={classes.navBarPosition}>
         <NavBarContainer />
       </div>
@@ -17,7 +18,7 @@ function Page({ viewType, menuIsOpen }) {
       {menuIsOpen ? <MenuModalContainer /> : null}
 
       <div className={classes.innerMenuPosition}>
-      <InnerMenuContainer />
+        <InnerMenuContainer />
       </div>
 
       <div className={classes.imagesPosition}>

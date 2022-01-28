@@ -1,20 +1,19 @@
-.flex{
-    display: flex;
-   justify-content: center;
-    }
-
-.padding{
-    padding: 25px 0;
+.flex {
+  display: flex;
+  justify-content: center;
 }
 
-.button{
-border: none;
-background-color: transparent;
-    
+.padding {
+  padding: 25px 0;
 }
 
-@media(min-width: 764px){
-    .flex{
-     justify-content: flex-start;
-            }
+.button {
+  border: none;
+  background-color: transparent;
+}
+
+@media (min-width: 764px) {
+  .flex {
+    justify-content: flex-start;
+  }
 }

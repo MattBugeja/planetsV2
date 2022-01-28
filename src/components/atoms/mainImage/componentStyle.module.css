@@ -26,26 +26,22 @@
   justify-self: center;
 }
 
-@media(min-width:768px){
+@media (min-width: 768px) {
   .containerHeight {
     height: 253px;
   }
-  
+
   .containerWidth {
     width: 253px;
   }
-
-
 }
 
-@media(min-width:1439px){
+@media (min-width: 1439px) {
   .containerHeight {
     height: 582px;
   }
-  
+
   .containerWidth {
     width: 582px;
   }
-
-
 }

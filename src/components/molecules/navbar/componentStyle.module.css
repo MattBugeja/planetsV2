@@ -23,7 +23,6 @@
   }
 }
 
-
 @media (min-width: 1439px) {
   .componentFlex {
     display: flex;
@@ -31,5 +30,4 @@
     align-items: center;
     flex-direction: row;
   }
-
 }

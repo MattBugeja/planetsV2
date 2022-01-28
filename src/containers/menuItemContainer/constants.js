@@ -1,5 +1,2 @@
-export const SET_PLANET_INDEX  = "SET_PLANET_INDEX"
-
-
-
-
+export const SET_PLANET_INDEX = "SET_PLANET_INDEX";
+export const SET_PLANET_NAME = "SET_PLANET_NAME";

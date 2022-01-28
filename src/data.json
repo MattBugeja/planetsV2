@@ -20,8 +20,10 @@
       { "attributeName": "average temp", "attributeQuantity": "430°c" }
     ],
     "theme": {
-      "background": ".mercuryBG"
+      "background": "mercuryBG",
+      "border": "mercuryBorder"
     },
+
     "images": {
       "overview": "/assets/planet-mercury.svg",
       "structure": "/assets/planet-mercury-internal.svg",
@@ -49,14 +51,14 @@
       { "attributeName": "average temp", "attributeQuantity": "471°c" }
     ],
     "theme": {
-      "background": ".venusBG"
+      "background": "venusBG",
+      "border": "venusBorder"
     },
     "images": {
       "overview": "/assets/planet-venus.svg",
       "structure": "/assets/planet-venus-internal.svg",
       "geology": "/assets/geology-venus.png"
     }
-
   },
   {
     "name": "earth",
@@ -74,12 +76,16 @@
     },
     "attributes": [
       { "attributeName": "rotation Time", "attributeQuantity": "0.99 Days" },
-      { "attributeName": "revolution time", "attributeQuantity": "365.26 Days" },
+      {
+        "attributeName": "revolution time",
+        "attributeQuantity": "365.26 Days"
+      },
       { "attributeName": "radius", "attributeQuantity": "6,371 KM" },
       { "attributeName": "average temp", "attributeQuantity": "16°c" }
     ],
     "theme": {
-      "background": ".earthBG"
+      "background": "earthBG",
+      "border": "earthBorder"
     },
     "images": {
       "overview": "/assets/planet-earth.svg",
@@ -108,7 +114,8 @@
       { "attributeName": "average temp", "attributeQuantity": "-28°c" }
     ],
     "theme": {
-      "background": ".marsBG"
+      "background": "marsBG",
+      "border": "marsBorder"
     },
     "images": {
       "overview": "/assets/planet-mars.svg",
@@ -132,12 +139,16 @@
     },
     "attributes": [
       { "attributeName": "rotation Time", "attributeQuantity": "9.93 Hours" },
-      { "attributeName": "revolution time", "attributeQuantity": "11.86 Years" },
+      {
+        "attributeName": "revolution time",
+        "attributeQuantity": "11.86 Years"
+      },
       { "attributeName": "radius", "attributeQuantity": "69,911 KM" },
       { "attributeName": "average temp", "attributeQuantity": "-108°c" }
     ],
     "theme": {
-      "background": ".jupiterBG"
+      "background": "jupiterBG",
+      "border": "jupiterBorder"
     },
     "images": {
       "overview": "/assets/planet-jupiter.svg",
@@ -161,10 +172,17 @@
     },
     "attributes": [
       { "attributeName": "rotation Time", "attributeQuantity": "10.8 Hours" },
-      { "attributeName": "revolution time", "attributeQuantity": "29.46 Years" },
+      {
+        "attributeName": "revolution time",
+        "attributeQuantity": "29.46 Years"
+      },
       { "attributeName": "radius", "attributeQuantity": "58,232 KM" },
       { "attributeName": "average temp", "attributeQuantity": "-138°c" }
     ],
+    "theme": {
+      "background": "saturnBG",
+      "border": "saturnBorder"
+    },
     "images": {
       "overview": "/assets/planet-saturn.svg",
       "structure": "/assets/planet-saturn-internal.svg",
@@ -192,7 +210,8 @@
       { "attributeName": "average temp", "attributeQuantity": "-195°c" }
     ],
     "theme": {
-      "background": ".uranusBG"
+      "background": "uranusBG",
+      "border": "uranusBorder"
     },
     "images": {
       "overview": "/assets/planet-uranus.svg",
@@ -216,12 +235,16 @@
     },
     "attributes": [
       { "attributeName": "rotation Time", "attributeQuantity": "16.08 Hours" },
-      { "attributeName": "revolution time", "attributeQuantity": "164.79 Years" },
+      {
+        "attributeName": "revolution time",
+        "attributeQuantity": "164.79 Years"
+      },
       { "attributeName": "radius", "attributeQuantity": "24,622 KM" },
       { "attributeName": "average temp", "attributeQuantity": "-201°c" }
     ],
     "theme": {
-      "background": ".neptuneBG"
+      "background": "neptuneBG",
+      "border": "neptuneBorder"
     },
     "images": {
       "overview": "/assets/planet-neptune.svg",

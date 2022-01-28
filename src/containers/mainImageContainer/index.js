@@ -3,10 +3,9 @@ import { useEffect, useState } from "react";
 import MainImage from "../../components/atoms/mainImage";
 import { useSelector } from "react-redux";
 
-function MainImageContainer({viewType}) {
+function MainImageContainer({ viewType }) {
   const [isViewType, setViewType] = useState("");
-  const planetIndex = useSelector((state)=>state.planetInfo.planetIndex)
-
+  const planetIndex = useSelector((state) => state.planetInfo.planetIndex);
 
   useEffect(() => {
     viewType === "overview" || viewType === "structure"

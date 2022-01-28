@@ -5,13 +5,11 @@ import { useEffect } from "react";
 import { setIsMobile } from "./actions";
 
 const PageContainer = () => {
-
   const dispatch = useDispatch();
 
-  const isMobile = useCheckMobileScreen() 
+  const isMobile = useCheckMobileScreen();
 
   const dispatchSetIsMobile = () => {
-   
     isMobile ? dispatch(setIsMobile(true)) : dispatch(setIsMobile(false));
   };
 

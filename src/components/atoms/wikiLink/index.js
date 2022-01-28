@@ -6,8 +6,13 @@ function WikiLink({ url }) {
     <div
       className={`${typography.fontSpartan} ${typography.fontSizeS} ${typography.sourceLink} ${colors.colorWhiteHalf}`}
     >
-      Source: <span className={`${typography.fontWeight700}  ${typography.underline}`}>
-        <a target ={"blank"} href={url}>Wikipedia</a>
+      Source:{" "}
+      <span
+        className={`${typography.fontWeight700} ${typography.underline} ${colors.linkColors}`}
+      >
+        <a className={`${colors.linkColors}`} target={"blank"} href={url}>
+          Wikipedia
+        </a>
       </span>
     </div>
   );

@@ -29,43 +29,29 @@
   background-color: white;
 }
 
-.mercuryBG {
-  background-color: var(--mercuryColor);
-}
-.venusrBG {
-  background-color: var(--venusColor);
-}
-.earthrBG {
-  background-color: var(--earthColor);
-}
-.marsrBG {
-  background-color: var(--marsColor);
-}
-.jupiterrBG {
-  background-color: var(--jupiterColor);
-}
-.saturnrBG {
-  background-color: var(--saturnColor);
-}
-.uranusrBG {
-  background-color: var(--uranusColor);
-}
-.neptuneBG {
-  background-color: var(--neptuneColor);
-}
-
-a:link {
-  color: rgba(255, 255, 255, 0.5);
-}
-a:visited {
-  color: rgba(255, 255, 255, 0.5);
-}
-a:hover {
-  color: rgba(255, 255, 255, 0.5);
-}
-a:focus {
-  color: rgba(255, 255, 255, 0.5);
-}
-a:active {
-  color: rgba(255, 255, 255, 0.5);
+@media (min-width: 764px) {
+  .mercuryBG {
+    background-color: var(--mercuryColor);
+  }
+  .venusBG {
+    background-color: var(--venusColor);
+  }
+  .earthBG {
+    background-color: var(--earthColor);
+  }
+  .marsBG {
+    background-color: var(--marsColor);
+  }
+  .jupiterBG {
+    background-color: var(--jupiterColor);
+  }
+  .saturnBG {
+    background-color: var(--saturnColor);
+  }
+  .uranusBG {
+    background-color: var(--uranusColor);
+  }
+  .neptuneBG {
+    background-color: var(--neptuneColor);
+  }
 }

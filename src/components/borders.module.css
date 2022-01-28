@@ -1,17 +1,69 @@
 .borderPaleWhite {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 764px) {
+  .borderPaleWhiteSM {
     border: 1px solid rgba(255, 255, 255, 0.2);
   }
+}
 
-  @media(max-width: 764px){
-
-    .borderPaleWhiteSM {
-      border: 1px solid rgba(255, 255, 255, 0.2);
-    }
+@media (min-width: 764px) {
+  .borderPaleWhiteMD {
+    border: 1px solid rgba(255, 255, 255, 0.2);
   }
+}
 
-  @media(min-width: 764px){
-
-    .borderPaleWhiteMD {
-      border: 1px solid rgba(255, 255, 255, 0.2);
-    }
+@media (max-width: 1439px) {
+  .mercuryBorder {
+    border-bottom: thick solid var(--mercuryColor);
   }
+  .venusBorder {
+    border-bottom: thick solid var(--venusColor);
+  }
+  .earthBorder {
+    border-bottom: thick solid var(--earthColor);
+  }
+  .marsBorder {
+    border-bottom: thick solid var(--marsColor);
+  }
+  .jupiterBorder {
+    border-bottom: thick solid var(--jupiterColor);
+  }
+  .saturnBorder {
+    border-bottom: thick solid var(--saturnColor);
+  }
+  .uranusBorder {
+    border-bottom: thick solid var(--uranusColor);
+  }
+  .neptuneBorder {
+    border-bottom: thick solid var(--neptuneColor);
+  }
+}
+
+@media (min-width: 1439px) {
+  .mercuryBorder {
+    border-top: thick solid var(--mercuryColor);
+  }
+  .venusBorder {
+    border-top: thick solid var(--venusColor);
+  }
+  .earthBorder {
+    border-top: thick solid var(--earthColor);
+  }
+  .marsBorder {
+    border-top: thick solid var(--marsColor);
+  }
+  .jupiterBorder {
+    border-top: thick solid var(--jupiterColor);
+  }
+  .saturnBorder {
+    border-top: thick solid var(--saturnColor);
+  }
+  .uranusBorder {
+    border-top: thick solid var(--uranusColor);
+  }
+  .neptuneBorder {
+    border-top: thick solid var(--neptuneColor);
+  }
+}
